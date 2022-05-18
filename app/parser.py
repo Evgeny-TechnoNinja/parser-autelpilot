@@ -1,8 +1,10 @@
-from utils import get_menu_links
+from utils import get_menu_links, extract_data
 
 
 def main():
-    get_menu_links()
+    menu_links = get_menu_links()
+    data = extract_data(menu_links)
+
 
 
 if __name__ == "__main__":
