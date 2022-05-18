@@ -1,5 +1,5 @@
 import requests
-from app.config import USER_AGENT
+from config import USER_AGENT  # noqa
 
 
 def get_document(url, parameter=None):
